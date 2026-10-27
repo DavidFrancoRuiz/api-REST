@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.11
+    commands:
+      - echo "=== Instalando dependencias de Python ==="
+      - pip install -r requirements.txt
+  build:
+    commands:
+      - echo "=== Verificando sintaxis del proyecto ==="
+      - python -c "import app; print('Sintaxis correcta')"
+artifacts:
+  files:
+    - '**/*'
