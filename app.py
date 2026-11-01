@@ -8,7 +8,7 @@ def home():
     return jsonify(
         {
             "status": "success",
-            "mensaje": "¡Hola! Mi API REST está funcionando en AWS con CodePipeline",
+            "mensaje": "Mi API REST está funcionando en AWS con CodePipeline",
             "autor": "Andres, Camilo, David",
         }
     )
