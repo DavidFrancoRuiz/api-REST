@@ -9,7 +9,7 @@ def home():
         {
             "status": "success",
             "mensaje": "¡Hola! Mi API REST está funcionando en AWS con CodePipeline",
-            "autor": "Tu Nombre",
+            "autor": "Andres, Camilo, David",
         }
     )
 
